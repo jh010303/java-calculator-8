@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CalculatorNumber {
-    private List<String> numbers = new ArrayList<String>();
+    private List<String> numbers = new ArrayList<>();
     private Double answer;
     private String delimiter = ",|:";
     private boolean isInteger = false;
