@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 public class CalculatorExtractorService {
     public void setDelimiter(String request, CalculatorNumber calculatorNumber) {
-        if (request == null || request.length() == 0) {
+        if (request == null || request.isEmpty()) {
             throw new IllegalArgumentException("입력되지 않은 문자열");
         }
         if (request.startsWith("//")) {
